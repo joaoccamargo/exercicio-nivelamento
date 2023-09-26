@@ -1,9 +1,9 @@
 var base_retangulo = document.getElementById("base_retangulo");
 var altura_retangulo = document.getElementById("altura_retangulo");
 
-function calcularArea(base, altura){
-    base = parseFloat(base_retangulo.value);
-    altura = parseFloat(altura_retangulo.value);
+function calcularArea(){
+    let base = parseFloat(base_retangulo.value);
+    let altura = parseFloat(altura_retangulo.value);
     let area = base * altura;
     let perimetro = 2 * (base + altura);
     let diagonal = Math.sqrt(Math.pow(base, 2) + Math.pow(altura, 2));
