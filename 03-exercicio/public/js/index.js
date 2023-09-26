@@ -6,9 +6,9 @@ var idade_dois = document.getElementById("idade2");
 
 
 
-function calcularMedia(idade, outraidade){
-    idade = parseFloat(idade_um.value);
-    outraidade = parseFloat(idade_dois.value);
+function calcularMedia(){
+    let idade = parseFloat(idade_um.value);
+    let outraidade = parseFloat(idade_dois.value);
     let calculomedia = (idade + outraidade) / 2;
     resultado.innerText = `A idade média de ${nome_um.value} e ${nome_dois.value} é de ${calculomedia} anos`;
 }
