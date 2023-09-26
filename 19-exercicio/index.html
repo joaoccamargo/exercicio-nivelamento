@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19 Exercicio</title>
+</head>
+<body>
+<p><b>19º</b> Uma empresa vai conceder um aumento percentual de salário aos seus
+funcionários dependendo de quanto cada pessoa ganha, conforme tabela
+ao lado. Fazer um programa para ler o salário de uma pessoa, daí mostrar
+qual o novo salário dessa pessoa depois do aumento, quanto foi o aumento
+e qual foi a porcentagem de aumento.</p>
+
+<h3>Salário Atual    -    Aumento</h3>
+<ul>
+<li>Até R$ 999.00  ->  20%</li>
+<li>Entre R$ 1000.00 e R$ 2999.00  -> 15%</li>
+<li>Entre R$ 3000.00 e R$ 7999.00 -> 10%</li>
+<li>Acima de R$ 8000.00 -> 05%</li>
+</ul>
+<label>Digite o salario da pessoa:</label>
+<input id="salario">
+
+<p id="resultado"> </p>
+
+<button onclick="aumentoSalarial()">Calcular Aumento</button>
+
+<script src="./public/js/index.js"></script>
+</body>
+</html>
