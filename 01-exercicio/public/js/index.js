@@ -4,9 +4,9 @@ var valor_metro_quadrado = document.getElementById("valor_metroq");
 var resultado_calculo = document.getElementById("resultado_calculo");
 
 
-function calcularArea(largura, comprimento){
-    largura = largura_terreno.value;
-    comprimento = comprimento_terreno.value;
+function calcularArea(){
+    let largura = largura_terreno.value;
+    let comprimento = comprimento_terreno.value;
     let area = (comprimento * largura);
     let preco = (valor_metro_quadrado.value * area);
 
