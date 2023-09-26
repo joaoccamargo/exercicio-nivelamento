@@ -12,6 +12,5 @@ let somarNumeros = () => {
       soma += i;
     }
   }
-
   resultado.innerHTML = `Resultado: ${soma}`
 }
